@@ -1,10 +1,10 @@
-module github.com/weeaa/jito-go
+module github.com/17535250630/jito_cli
 
 go 1.21
 
 require (
 	github.com/gagliardetto/binary v0.8.0
-	github.com/gagliardetto/solana-go v1.10.0
+github.com/17535250630/solana-go v0.0.0-20240406181737-bf953319ebb0
 	github.com/joho/godotenv v1.5.1
 	github.com/mr-tron/base58 v1.2.0
 	github.com/stretchr/testify v1.9.0

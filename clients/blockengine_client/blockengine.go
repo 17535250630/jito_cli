@@ -3,10 +3,11 @@ package blockengine_client
 import (
 	"context"
 	"crypto/tls"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/weeaa/jito-go/pkg"
-	"github.com/weeaa/jito-go/proto"
+
+	"github.com/17535250630/jito_cli/pkg"
+	"github.com/17535250630/jito_cli/proto"
+	"github.com/17535250630/solana-go"
+	"github.com/17535250630/solana-go/rpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

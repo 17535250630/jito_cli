@@ -3,9 +3,10 @@ package relayer_client
 import (
 	"context"
 	"crypto/tls"
+
+	"github.com/17535250630/jito_cli/pkg"
+	"github.com/17535250630/jito_cli/proto"
 	"github.com/gagliardetto/solana-go"
-	"github.com/weeaa/jito-go/pkg"
-	"github.com/weeaa/jito-go/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

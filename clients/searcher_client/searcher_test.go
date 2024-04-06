@@ -2,18 +2,18 @@ package searcher_client
 
 import (
 	"context"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/programs/system"
-	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/joho/godotenv"
-	"github.com/stretchr/testify/assert"
-	"github.com/weeaa/jito-go"
-	"github.com/weeaa/jito-go/pkg"
 	"os"
 	"path/filepath"
 	"runtime"
 	"testing"
 	"time"
+
+	"github.com/17535250630/jito_cli/pkg"
+	"github.com/gagliardetto/solana-go"
+	"github.com/gagliardetto/solana-go/programs/system"
+	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/joho/godotenv"
+	"github.com/stretchr/testify/assert"
 )
 
 func init() {

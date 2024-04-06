@@ -1,9 +1,9 @@
 package pkg
 
 import (
+	"github.com/17535250630/jito_cli/proto"
 	bin "github.com/gagliardetto/binary"
 	"github.com/gagliardetto/solana-go"
-	"github.com/weeaa/jito-go/proto"
 )
 
 // ConvertTransactionToProtobufPacket converts a solana-go Transaction to a proto.Packet.

@@ -5,15 +5,16 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
+	"math/big"
+	"math/rand"
+
+	"github.com/17535250630/jito_cli/pkg"
+	"github.com/17535250630/jito_cli/proto"
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/programs/system"
 	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/weeaa/jito-go/pkg"
-	"github.com/weeaa/jito-go/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
-	"math/big"
-	"math/rand"
 )
 
 type Client struct {

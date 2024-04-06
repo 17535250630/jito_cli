@@ -2,10 +2,11 @@ package geyser_client
 
 import (
 	"context"
-	"github.com/stretchr/testify/assert"
-	"github.com/weeaa/jito-go/proto"
 	"os"
 	"testing"
+
+	"github.com/17535250630/jito_cli/proto"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_GeyserClient(t *testing.T) {
