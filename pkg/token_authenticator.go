@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/17535250630/jito_cli/proto"
-	"github.com/gagliardetto/solana-go"
+	"github.com/17535250630/solana-go"
 	"github.com/mr-tron/base58"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

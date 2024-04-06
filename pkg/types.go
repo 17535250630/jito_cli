@@ -1,7 +1,7 @@
 package pkg
 
 import (
-	"github.com/gagliardetto/solana-go"
+	"github.com/17535250630/solana-go"
 )
 
 type Keypair struct {

@@ -1,7 +1,7 @@
 package jito_go
 
 import (
-	"github.com/gagliardetto/solana-go"
+	"github.com/17535250630/solana-go"
 )
 
 var MainnetTipPaymentProgram = solana.MustPublicKeyFromBase58("T1pyyaTNZsKv2WcRAB8oVnk93mLJw2XzjtVYqCsaHqt")
